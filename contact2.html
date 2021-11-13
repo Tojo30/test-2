@@ -1,0 +1,121 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6610f2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #20c997;
+}
+div{
+	list-style-type: square;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+}
+input[type=text], select {
+  width: 98%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+input[type=contenu], select{
+  width: 98%;
+  height: 35%;
+
+ }
+
+</style>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+
+<ul>
+  <li><a href="#acceuil">Acceuil</a></li>
+  <li><a href="#blog">Blog</a></li>
+  <li><a href="#dashboard">Dashboard</a></li>
+  <li><a class="active" href="#contact">Contact</a></li>
+</ul>
+
+
+<div class="row">
+	<div class="col-md-3">
+<h2>Tous les articles :</h2>
+  <h5>. list 1</h5>
+  <h5>. list 2</h5>
+  <h5>. list 3</h5>
+  <h5>. list 4</h5>
+  <h5>. list 5</h5>
+	</div>
+
+	<div class="col-md-6">
+	<h1>Contactez nous</h1>
+
+	<p><label for="fname">Nom</label></p>
+    <input type="text" id="Nom" name="Nom" placeholder="Entrer nom" >
+
+<p><label for="fname">Prénom</label></p>
+    <input type="text" id="Prénom" name="Prénom" placeholder="Entrer prénom">
+
+<p><label for="fname">Adresse</label></p>
+<input type="text" id="Adresse" name="Adresse" placeholder="Entrer adresse">
+
+<p><label for="fname">E-mail</label></p>
+<input type="text" id="E-mail" name="E-mail" placeholder="Entrer mail">
+
+<p><input type="submit" value="Submit"></p>
+	</div>
+
+	<div class="col-md-3">
+<h3>Creer nouveau article</h3>
+<p><label for="fname">Titre</label></p>
+    <input type="text" id="Titre" name="Titre">
+
+<p><label for="fname">Date de création</label></p>
+    <input type="text" id="Date de création" name="Date de création" placeholder="jj/mm/aa">
+
+<p><label for="fname">Contenu</label></p>
+<input type="contenu" id="Contenu" name="Contenu">
+
+<p><input type="submit" value="Soumettre"></p>
+
+
+	</div>
+</div>
+
+<body>
+
+<body>
+
+</body>
+</html>
